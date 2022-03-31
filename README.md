@@ -1,7 +1,5 @@
 # Upgrade your Angular package with schematics
 
-## You already use schematics
-
 Succesfull libraries use schematics
 - [Angular Material](https://material.angular.io/guide/schematics)
 - [NGRX](https://ngrx.io/guide/schematics)
@@ -14,6 +12,5 @@ Succesfull libraries use schematics
 ### Examples
 ```
 ng add @betatalks/core
-ng update @betatalks/core
-ng generate @betatalks/core:store --name=dogs       
+ng update @betatalks/core     
 ```
