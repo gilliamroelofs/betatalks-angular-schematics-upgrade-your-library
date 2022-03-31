@@ -1,0 +1,27 @@
+{
+  "name": "@betatalks/core",
+  "version": "0.0.5",
+  "schematics": "./schematics/collection.json",
+  "scripts": {
+    "build:schematics": "npm run compile:schematics && npm run copy:schematics",
+    "compile:schematics": "tsc -p tsconfig.schematics.json",
+    "copy:schematics": "node ./scripts/copy-schematics.js"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-eslint/schematics": "13.1.0"
+  },
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "ng-update": {
+    "migrations": "./schematics/migration.json",
+    "packageGroup": []
+  }
+}

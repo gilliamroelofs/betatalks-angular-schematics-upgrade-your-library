@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchematicsFeatureModule",
+  "title": "feature module schema",
+  "type": "object",
+  "properties": {
+    "skipModuleImport": {
+      "description": "Skip import in app module",
+      "type": "boolean"
+    },
+    "skipPackageJson": {
+      "description": "Skip adding dependencies in package json",
+      "type": "boolean"
+    },
+    "project": {
+      "type": "string",
+      "description": "The name of the project.",
+      "$default": {
+        "$source": "projectName"
+      }
+    }
+  }
+}

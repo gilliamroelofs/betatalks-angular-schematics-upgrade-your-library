@@ -1,0 +1,9 @@
+{
+  "integrationFolder": "projects/styleguide/cypress/integration",
+  "supportFile": "projects/styleguide/cypress/support/index.ts",
+  "videosFolder": "projects/styleguide/cypress/videos",
+  "screenshotsFolder": "projects/styleguide/cypress/screenshots",
+  "pluginsFile": "projects/styleguide/cypress/plugins/index.ts",
+  "fixturesFolder": "projects/styleguide/cypress/fixtures",
+  "baseUrl": "http://localhost:4200"
+}
